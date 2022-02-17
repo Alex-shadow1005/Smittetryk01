@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'smittegruopAKA'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DB1CD06F285F484EB90A169302B18870 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BCAEE4AF79E449B682D2892E8A01A21B }}
           package: '*.jar'
