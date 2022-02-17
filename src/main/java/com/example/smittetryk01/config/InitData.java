@@ -27,7 +27,7 @@ public class InitData implements CommandLineRunner {
 
         roskilde.setName("København");
         roskilde.setCountyCode("1010");
-        roskilde.setHref("http://localhost:8080/county/0259");
+        roskilde.setHref("http://localhost:8080/county/1010");
         countyRepository.save(roskilde);
 
 
